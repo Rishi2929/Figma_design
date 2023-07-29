@@ -64,13 +64,13 @@ line-height: 160%;
   .r2 {
     fill: black;
   }
-/* Apply styles to the footer to give it a fixed height (you can adjust as needed) */
+
 .footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 210px; /* Set the height you want for the footer */
+    height: 210px; 
 background: var(--the-black, #282828);
     margin: 0;
     padding: 0;
@@ -83,7 +83,7 @@ body {
     overflow: hidden;
 }
 
-/* Make sure the SVG takes full width and height of its container */
+
 .rectangle {
     width: 100%;
     height: 100%;
@@ -92,27 +92,27 @@ body {
     
     max-width: 70%;
     height: auto;
-    margin-left: auto; /* This pushes the image to the right */
-    display: block; /* This makes the image a block-level element, allowing the margin-left to work */
+    margin-left: auto; 
+    display: block; 
 }
 .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Wrap the content to the next row if it overflows the container */
+    flex-wrap: wrap; 
 }
 .left-section {
-    flex: 1; /* This makes it take up available space */
-    max-width: 650px; /* Limit the maximum width of the left section */
-    padding: 0px; /* Add some padding for spacing */
-    box-sizing: border-box; /* Include padding in the total width */
+    flex: 1; 
+    max-width: 650px; 
+    padding: 0px; 
+    box-sizing: border-box; 
 }
 
 /* Style for the right section */
 .right-section {
-    flex: 1; /* This makes it take up available space */
-    max-width: 80%; /* Limit the maximum width of the right section */
-    padding: 20px; /* Add some padding for spacing */
-    box-sizing: border-box; /* Include padding in the total width */
+    flex: 1; 
+    max-width: 80%; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 
@@ -121,7 +121,7 @@ body {
     max-width: 90%;
     height: 35em;
     display: block;
-    margin-bottom: 20em; /* Add some spacing between the image and the content below */
+    margin-bottom: 20em; 
     margin-left: 10em;
 }
 
